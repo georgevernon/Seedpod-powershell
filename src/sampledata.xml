@@ -1,0 +1,144 @@
+<my:myFields xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<my:team>
+		<my:leadProposer/>
+		<my:leadProposerEmail/>
+		<my:leadProposerTel/>
+		<my:progLead/>
+	</my:team>
+	<my:details>
+		<my:finalAward/>
+		<my:progTitle/>
+		<my:progStart/>
+		<my:progDuration/>
+		<my:patterns/>
+		<my:modes/>
+		<my:exceptions/>
+		<my:accredited/>
+		<my:accred>
+			<my:timescale/>
+			<my:psrb/>
+		</my:accred>
+		<my:collaborative/>
+		<my:involve/>
+		<my:involvement>
+			<my:involveDetails/>
+		</my:involvement>
+		<my:reApprove/>
+		<my:reApp>
+			<my:approveDetails/>
+		</my:reApp>
+	</my:details>
+	<my:strategicRationale/>
+	<my:academicRationale/>
+	<my:marketRationale/>
+	<my:staffRequirments/>
+	<my:programmeCosts/>
+	<my:closedProgrammes/>
+	<my:notes/>
+	<my:Approver_comments/>
+	<xd:SchemaInfo LocalName="myFields" NamespaceURI="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31">
+		<xd:Namespaces>
+			<xd:Namespace LocalName="myFields" NamespaceURI="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31"/>
+		</xd:Namespaces>
+	</xd:SchemaInfo>
+	<xd:DataConnection Name="collab 2">
+		<collab xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+			<item/>
+			<xd:SchemaInfo LocalName="collab" NamespaceURI="">
+				<xd:Namespaces>
+					<xd:Namespace LocalName="collab" NamespaceURI=""/>
+				</xd:Namespaces>
+			</xd:SchemaInfo>
+		</collab>
+	</xd:DataConnection>
+	<xd:DataConnection Name="modes 3">
+		<modes xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+			<item/>
+			<xd:SchemaInfo LocalName="modes" NamespaceURI="">
+				<xd:Namespaces>
+					<xd:Namespace LocalName="modes" NamespaceURI=""/>
+				</xd:Namespaces>
+			</xd:SchemaInfo>
+		</modes>
+	</xd:DataConnection>
+	<xd:DataConnection Name="modes 2">
+		<modes xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+			<item/>
+			<xd:SchemaInfo LocalName="modes" NamespaceURI="">
+				<xd:Namespaces>
+					<xd:Namespace LocalName="modes" NamespaceURI=""/>
+				</xd:Namespaces>
+			</xd:SchemaInfo>
+		</modes>
+	</xd:DataConnection>
+	<xd:DataConnection Name="duration 2">
+		<durattions xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+			<item/>
+			<xd:SchemaInfo LocalName="durattions" NamespaceURI="">
+				<xd:Namespaces>
+					<xd:Namespace LocalName="durattions" NamespaceURI=""/>
+				</xd:Namespaces>
+			</xd:SchemaInfo>
+		</durattions>
+	</xd:DataConnection>
+	<xd:DataConnection Name="finalAward 2">
+		<finalAwards xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+			<award/>
+			<xd:SchemaInfo LocalName="finalAwards" NamespaceURI="">
+				<xd:Namespaces>
+					<xd:Namespace LocalName="finalAwards" NamespaceURI=""/>
+				</xd:Namespaces>
+			</xd:SchemaInfo>
+		</finalAwards>
+	</xd:DataConnection>
+	<xd:DataConnection Name="collab">
+		<collab xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+			<item/>
+			<xd:SchemaInfo LocalName="collab" NamespaceURI="">
+				<xd:Namespaces>
+					<xd:Namespace LocalName="collab" NamespaceURI=""/>
+				</xd:Namespaces>
+			</xd:SchemaInfo>
+		</collab>
+	</xd:DataConnection>
+	<xd:DataConnection Name="modes">
+		<modes xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+			<item/>
+			<xd:SchemaInfo LocalName="modes" NamespaceURI="">
+				<xd:Namespaces>
+					<xd:Namespace LocalName="modes" NamespaceURI=""/>
+				</xd:Namespaces>
+			</xd:SchemaInfo>
+		</modes>
+	</xd:DataConnection>
+	<xd:DataConnection Name="patterns">
+		<patterns xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+			<item/>
+			<xd:SchemaInfo LocalName="patterns" NamespaceURI="">
+				<xd:Namespaces>
+					<xd:Namespace LocalName="patterns" NamespaceURI=""/>
+				</xd:Namespaces>
+			</xd:SchemaInfo>
+		</patterns>
+	</xd:DataConnection>
+	<xd:DataConnection Name="duration">
+		<durattions xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+			<item/>
+			<xd:SchemaInfo LocalName="durattions" NamespaceURI="">
+				<xd:Namespaces>
+					<xd:Namespace LocalName="durattions" NamespaceURI=""/>
+				</xd:Namespaces>
+			</xd:SchemaInfo>
+		</durattions>
+	</xd:DataConnection>
+	<xd:DataConnection Name="finalAward">
+		<finalAwards xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+			<award/>
+			<xd:SchemaInfo LocalName="finalAwards" NamespaceURI="">
+				<xd:Namespaces>
+					<xd:Namespace LocalName="finalAwards" NamespaceURI=""/>
+				</xd:Namespaces>
+			</xd:SchemaInfo>
+		</finalAwards>
+	</xd:DataConnection>
+</my:myFields>

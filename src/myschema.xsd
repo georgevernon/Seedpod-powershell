@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema targetNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="myFields">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:team" minOccurs="0"/>
+				<xsd:element ref="my:details" minOccurs="0"/>
+				<xsd:element ref="my:strategicRationale" minOccurs="0"/>
+				<xsd:element ref="my:academicRationale" minOccurs="0"/>
+				<xsd:element ref="my:marketRationale" minOccurs="0"/>
+				<xsd:element ref="my:staffRequirments" minOccurs="0"/>
+				<xsd:element ref="my:programmeCosts" minOccurs="0"/>
+				<xsd:element ref="my:closedProgrammes" minOccurs="0"/>
+				<xsd:element ref="my:notes" minOccurs="0"/>
+				<xsd:element ref="my:Approver_comments" minOccurs="0"/>
+			</xsd:sequence>
+			<xsd:anyAttribute processContents="lax" namespace="http://www.w3.org/XML/1998/namespace"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="team">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:leadProposer" minOccurs="0"/>
+				<xsd:element ref="my:leadProposerEmail" minOccurs="0"/>
+				<xsd:element ref="my:leadProposerTel" minOccurs="0"/>
+				<xsd:element ref="my:progLead" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="leadProposer" type="my:requiredString"/>
+	<xsd:element name="leadProposerEmail" type="my:requiredString"/>
+	<xsd:element name="leadProposerTel" type="xsd:integer"/>
+	<xsd:element name="progLead" type="xsd:string"/>
+	<xsd:element name="details">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:finalAward" minOccurs="0"/>
+				<xsd:element ref="my:progTitle" minOccurs="0"/>
+				<xsd:element ref="my:progStart" minOccurs="0"/>
+				<xsd:element ref="my:progDuration" minOccurs="0"/>
+				<xsd:element ref="my:patterns" minOccurs="0"/>
+				<xsd:element ref="my:modes" minOccurs="0"/>
+				<xsd:element ref="my:exceptions" minOccurs="0"/>
+				<xsd:element ref="my:accredited" minOccurs="0"/>
+				<xsd:element ref="my:accred" minOccurs="0"/>
+				<xsd:element ref="my:collaborative" minOccurs="0"/>
+				<xsd:element ref="my:involve" minOccurs="0"/>
+				<xsd:element ref="my:involvement" minOccurs="0"/>
+				<xsd:element ref="my:reApprove" minOccurs="0"/>
+				<xsd:element ref="my:reApp" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="finalAward" type="my:requiredString"/>
+	<xsd:element name="progTitle" type="my:requiredString"/>
+	<xsd:element name="progStart" type="xsd:date"/>
+	<xsd:element name="progDuration" type="my:requiredString"/>
+	<xsd:element name="patterns" type="my:requiredString"/>
+	<xsd:element name="modes" type="my:requiredString"/>
+	<xsd:element name="exceptions">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="accredited" type="my:requiredString"/>
+	<xsd:element name="accred">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:timescale" minOccurs="0"/>
+				<xsd:element ref="my:psrb" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="timescale" type="xsd:string"/>
+	<xsd:element name="psrb" type="xsd:string"/>
+	<xsd:element name="collaborative" type="my:requiredString"/>
+	<xsd:element name="involve" type="my:requiredString"/>
+	<xsd:element name="involvement">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:involveDetails" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="involveDetails">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="reApprove" type="my:requiredString"/>
+	<xsd:element name="reApp">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:approveDetails" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="approveDetails">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="strategicRationale">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="academicRationale">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="marketRationale">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="staffRequirments">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="programmeCosts">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="closedProgrammes">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="notes">
+		<xsd:complexType>
+			<xsd:sequence/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Approver_comments">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:simpleType name="requiredString">
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="requiredAnyURI">
+		<xsd:restriction base="xsd:anyURI">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="requiredBase64Binary">
+		<xsd:restriction base="xsd:base64Binary">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

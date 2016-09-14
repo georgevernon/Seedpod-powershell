@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file is automatically created and modified by Microsoft InfoPath.
+Changes made to the file outside of InfoPath might be lost if the form template is modified in InfoPath.
+-->
+<xsf:xDocumentClass trustSetting="automatic" solutionFormatVersion="15.0.0.0" solutionVersion="1.0.0.100" productVersion="15.0.0" publishUrl="C:\Users\gvernon\Desktop\Form2.xsn" name="urn:schemas-microsoft-com:office:infopath:Form2:-myXSD-2016-08-25T12-48-31" xmlns:xsf="http://schemas.microsoft.com/office/infopath/2003/solutionDefinition" xmlns:xsf2="http://schemas.microsoft.com/office/infopath/2006/solutionDefinition/extensions" xmlns:xsf3="http://schemas.microsoft.com/office/infopath/2009/solutionDefinition/extensions" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdUtil="http://schemas.microsoft.com/office/infopath/2003/xslt/Util" xmlns:xdXDocument="http://schemas.microsoft.com/office/infopath/2003/xslt/xDocument" xmlns:xdMath="http://schemas.microsoft.com/office/infopath/2003/xslt/Math" xmlns:xdDate="http://schemas.microsoft.com/office/infopath/2003/xslt/Date" xmlns:xdExtension="http://schemas.microsoft.com/office/infopath/2003/xslt/extension" xmlns:xdEnvironment="http://schemas.microsoft.com/office/infopath/2006/xslt/environment" xmlns:xdUser="http://schemas.microsoft.com/office/infopath/2006/xslt/User" xmlns:xdServerInfo="http://schemas.microsoft.com/office/infopath/2009/xslt/ServerInfo" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<xsf:package>
+		<xsf:files>
+			<xsf:file name="myschema.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="namespace" type="string" value="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31"></xsf:property>
+					<xsf:property name="editability" type="string" value="full"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="myFields"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="template.xml"></xsf:file>
+			<xsf:file name="sampledata.xml">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="sampleData"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="view1.xsl">
+				<xsf:fileProperties>
+					<xsf:property name="lang" type="string" value="2057"></xsf:property>
+					<xsf:property name="componentId" type="string" value="61"></xsf:property>
+					<xsf:property name="xmlToEditName" type="string" value="89"></xsf:property>
+					<xsf:property name="mode" type="string" value="14"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="upgrade.xsl"></xsf:file>
+			<xsf:file name="finalAward.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="dataObject" type="string" value="finalAward"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="finalAwards"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="finalAward">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="resource"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="duration.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="dataObject" type="string" value="duration"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="durattions"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="duration">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="resource"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="patterns.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="dataObject" type="string" value="patterns"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="patterns"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="patterns">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="resource"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="modes.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="dataObject" type="string" value="modes"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="modes"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="modes">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="resource"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="collab.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="dataObject" type="string" value="collab"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="collab"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="collab">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="resource"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+		</xsf:files>
+	</xsf:package>
+	<xsf:importParameters enabled="yes"></xsf:importParameters>
+	<xsf:documentVersionUpgrade>
+		<xsf:useTransform transform="upgrade.xsl" minVersionToUpgrade="0.0.0.0" maxVersionToUpgrade="1.0.0.78"></xsf:useTransform>
+	</xsf:documentVersionUpgrade>
+	<xsf:extensions>
+		<xsf:extension name="SolutionDefinitionExtensions">
+			<xsf2:solutionDefinition runtimeCompatibility="client server" allowClientOnlyCode="no">
+				<xsf2:offline openIfQueryFails="yes" cacheQueries="yes"></xsf2:offline>
+				<xsf2:server formLocale="en-GB" isPreSubmitPostBackEnabled="no" isMobileEnabled="no"></xsf2:server>
+				<xsf2:viewsExtension>
+					<xsf2:viewExtension ref="View 1" designMode="normal" clientOnly="no">
+						<xsf2:xmlToEditExtension ref="field14_19" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="field16_52" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="field18_55" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="field19_56" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="field20_57" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="field1_71" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="field3_73" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="field2_72" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="field4_74" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+					</xsf2:viewExtension>
+				</xsf2:viewsExtension>
+				<xsf2:listPropertiesExtension>
+					<xsf2:fieldsExtension>
+						<xsf2:fieldExtension columnId="{f5532bfc-445e-40d5-86c8-d61fbd0f59d3}" readWrite="no" columnName="{8C8F678B-A50B-484D-8AE2-6374E98CB1C3}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension columnId="{18c8f0c1-412a-4486-92b7-ab8dddbb5b0d}" readWrite="no" columnName="{94ACC653-3E03-41B9-9D18-2DC8FCF2F660}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension columnId="{21a0529a-94dc-4764-95ef-0707cfb938cf}" readWrite="no" columnName="{6B66D5CB-ACDB-401C-85E9-15227F7CD801}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension columnId="{01f8cbe5-bf83-43b3-a4e4-0737ba2b30ad}" readWrite="no" columnName="{5D6F9FF0-A476-43F5-A02C-7EC736694FB3}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension columnId="{f0ff1d93-fe29-4d4e-af02-16800d7cf8cf}" readWrite="no" columnName="{FF158B68-9D64-4DEF-A4D4-09DD0F06DD37}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension columnId="{50c6ea0d-93f5-4ccd-82d0-e5fb63e03e38}" readWrite="no" columnName="{9339E77C-794B-4896-B4D8-C1435533D5FE}"></xsf2:fieldExtension>
+					</xsf2:fieldsExtension>
+				</xsf2:listPropertiesExtension>
+				<xsf2:solutionPropertiesExtension branch="wss">
+					<xsf2:wss path="https://ict2006plymouthac.sharepoint.com/sites/pp-curriculumdesignsites/seedpod/" name="seedpod" description="" browserEnable="yes"></xsf2:wss>
+				</xsf2:solutionPropertiesExtension>
+			</xsf2:solutionDefinition>
+			<xsf3:solutionDefinition>
+				<xsf3:customValidation>
+					<xsf3:errorBlank match="/my:myFields/my:details/my:exceptions" expressionContext="." expression="(. = &quot;&quot; or . = &quot; &quot; or . = &quot;​&quot;) and not(descendant-or-self::node()/*[name() = &quot;img&quot;])"></xsf3:errorBlank>
+					<xsf3:errorBlank match="/my:myFields/my:academicRationale" expressionContext="." expression="(. = &quot;&quot; or . = &quot; &quot; or . = &quot;​&quot;) and not(descendant-or-self::node()/*[name() = &quot;img&quot;])"></xsf3:errorBlank>
+					<xsf3:errorBlank match="/my:myFields/my:strategicRationale" expressionContext="." expression="(. = &quot;&quot; or . = &quot; &quot; or . = &quot;​&quot;) and not(descendant-or-self::node()/*[name() = &quot;img&quot;])"></xsf3:errorBlank>
+					<xsf3:errorBlank match="/my:myFields/my:marketRationale" expressionContext="." expression="(. = &quot;&quot; or . = &quot; &quot; or . = &quot;​&quot;) and not(descendant-or-self::node()/*[name() = &quot;img&quot;])"></xsf3:errorBlank>
+					<xsf3:errorBlank match="/my:myFields/my:staffRequirments" expressionContext="." expression="(. = &quot;&quot; or . = &quot; &quot; or . = &quot;​&quot;) and not(descendant-or-self::node()/*[name() = &quot;img&quot;])"></xsf3:errorBlank>
+					<xsf3:errorBlank match="/my:myFields/my:programmeCosts" expressionContext="." expression="(. = &quot;&quot; or . = &quot; &quot; or . = &quot;​&quot;) and not(descendant-or-self::node()/*[name() = &quot;img&quot;])"></xsf3:errorBlank>
+					<xsf3:errorBlank match="/my:myFields/my:closedProgrammes" expressionContext="." expression="(. = &quot;&quot; or . = &quot; &quot; or . = &quot;​&quot;) and not(descendant-or-self::node()/*[name() = &quot;img&quot;])"></xsf3:errorBlank>
+				</xsf3:customValidation>
+			</xsf3:solutionDefinition>
+		</xsf:extension>
+	</xsf:extensions>
+	<xsf:views default="View 1">
+		<xsf:view name="View 1" caption="View 1">
+			<xsf:mainpane transform="view1.xsl"></xsf:mainpane>
+			<xsf:editing>
+				<xsf:xmlToEdit name="progStart_15" item="/my:myFields/my:details/my:progStart">
+					<xsf:editWith proofing="no" autoComplete="no" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="field14_19" item="/my:myFields/my:details/my:exceptions">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="field16_52" item="/my:myFields/my:details/my:involvement/my:involveDetails">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="field18_55" item="/my:myFields/my:details/my:reApp/my:approveDetails">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="field19_56" item="/my:myFields/my:strategicRationale">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="field20_57" item="/my:myFields/my:academicRationale">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="field1_71" item="/my:myFields/my:marketRationale">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="field3_73" item="/my:myFields/my:programmeCosts">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="field2_72" item="/my:myFields/my:staffRequirments">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="field4_74" item="/my:myFields/my:closedProgrammes">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="group1_75" item="/my:myFields/my:notes" container="/my:myFields">
+					<xsf:editWith caption="notes" xd:autogeneration="template" component="xOptional">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:notes">
+								<my:notes></my:notes>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+			</xsf:editing>
+			<xsf:menuArea name="msoStructuralEditingContextMenu">
+				<xsf:button action="xOptional::remove" xmlToEdit="group1_75" caption="Remove notes" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::insert" xmlToEdit="group1_75" caption="Insert notes" showIf="immediate"></xsf:button>
+			</xsf:menuArea>
+		</xsf:view>
+	</xsf:views>
+	<xsf:applicationParameters application="InfoPath Design Mode">
+		<xsf:solutionProperties lastOpenView="view1.xsl" fullyEditableNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31" lastVersionNeedingTransform="1.0.0.78"></xsf:solutionProperties>
+	</xsf:applicationParameters>
+	<xsf:documentSchemas>
+		<xsf:documentSchema rootSchema="yes" location="http://schemas.microsoft.com/office/infopath/2003/myXSD/2016-08-25T12:48:31 myschema.xsd"></xsf:documentSchema>
+	</xsf:documentSchemas>
+	<xsf:fileNew>
+		<xsf:initialXmlDocument caption="Form2" href="template.xml"></xsf:initialXmlDocument>
+	</xsf:fileNew>
+	<xsf:customValidation>
+		<xsf:errorCondition match="/my:myFields/my:team/my:leadProposerEmail" expressionContext="." expression="not(xdUtil:Match(string(.), &quot;.+@.+(\.).+&quot;)) and . != &quot;&quot;">
+			<xsf:errorMessage type="modeless" shortMessage="Enter a valid email address"></xsf:errorMessage>
+			<?caption Rule 1?>
+		</xsf:errorCondition>
+		<xsf:errorCondition match="/my:myFields/my:team/my:leadProposer" expressionContext="." expression=". = &quot;&quot;">
+			<xsf:errorMessage type="modeless" shortMessage="This field cannot be blank"></xsf:errorMessage>
+			<?caption Rule 1?>
+		</xsf:errorCondition>
+	</xsf:customValidation>
+	<xsf:dataObjects>
+		<xsf:dataObject name="finalAward" schema="finalAward.xsd" initOnLoad="yes">
+			<xsf:query>
+				<xsf:xmlFileAdapter fileUrl="x-soln:///finalAward" name="finalAward"></xsf:xmlFileAdapter>
+			</xsf:query>
+		</xsf:dataObject>
+		<xsf:dataObject name="duration" schema="duration.xsd" initOnLoad="yes">
+			<xsf:query>
+				<xsf:xmlFileAdapter fileUrl="x-soln:///duration" name="duration"></xsf:xmlFileAdapter>
+			</xsf:query>
+		</xsf:dataObject>
+		<xsf:dataObject name="patterns" schema="patterns.xsd" initOnLoad="yes">
+			<xsf:query>
+				<xsf:xmlFileAdapter fileUrl="x-soln:///patterns" name="patterns"></xsf:xmlFileAdapter>
+			</xsf:query>
+		</xsf:dataObject>
+		<xsf:dataObject name="modes" schema="modes.xsd" initOnLoad="yes">
+			<xsf:query>
+				<xsf:xmlFileAdapter fileUrl="x-soln:///modes" name="modes"></xsf:xmlFileAdapter>
+			</xsf:query>
+		</xsf:dataObject>
+		<xsf:dataObject name="collab" schema="collab.xsd" initOnLoad="yes">
+			<xsf:query>
+				<xsf:xmlFileAdapter fileUrl="x-soln:///collab" name="collab"></xsf:xmlFileAdapter>
+			</xsf:query>
+		</xsf:dataObject>
+	</xsf:dataObjects>
+	<xsf:domEventHandlers></xsf:domEventHandlers>
+	<xsf:submit caption="Submit" disableMenuItem="no" onAfterSubmit="close" showStatusDialog="yes">
+		<xsf:errorMessage>The form cannot be submitted because of an error.</xsf:errorMessage>
+		<xsf:successMessage>The form was submitted successfully.</xsf:successMessage>
+		<xsf:davAdapter name="SharePoint Library Submit" submitAllowed="yes" overwriteAllowed="yes">
+			<xsf:folderURL value="https://ict2006plymouthac.sharepoint.com/sites/pp-curriculumdesignsites/seedpod/"></xsf:folderURL>
+			<xsf:fileName value="concat(&quot;CD Proposal-&quot;, my:team/my:leadProposer)" valueType="expression"></xsf:fileName>
+		</xsf:davAdapter>
+	</xsf:submit>
+	<xsf:listProperties>
+		<xsf:fields>
+			<xsf:field name="Lead Proposer" columnName="{8C8F678B-A50B-484D-8AE2-6374E98CB1C3}" node="/my:myFields/my:team/my:leadProposer" type="xsd:string"></xsf:field>
+			<xsf:field name="Lead Proposer Email" columnName="{94ACC653-3E03-41B9-9D18-2DC8FCF2F660}" node="/my:myFields/my:team/my:leadProposerEmail" type="xsd:string"></xsf:field>
+			<xsf:field name="Lead Proposer Tel" columnName="{6B66D5CB-ACDB-401C-85E9-15227F7CD801}" node="/my:myFields/my:team/my:leadProposerTel" type="xsd:integer"></xsf:field>
+			<xsf:field name="Prog Lead" columnName="{5D6F9FF0-A476-43F5-A02C-7EC736694FB3}" node="/my:myFields/my:team/my:progLead" type="xsd:string"></xsf:field>
+			<xsf:field name="Prog Title" columnName="{FF158B68-9D64-4DEF-A4D4-09DD0F06DD37}" node="/my:myFields/my:details/my:progTitle" type="xsd:string"></xsf:field>
+			<xsf:field name="Prog Start" columnName="{9339E77C-794B-4896-B4D8-C1435533D5FE}" node="/my:myFields/my:details/my:progStart" type="xsd:date"></xsf:field>
+		</xsf:fields>
+	</xsf:listProperties>
+	<xsf:dataAdapters>
+		<xsf:davAdapter name="Main submit" submitAllowed="yes" overwriteAllowed="yes">
+			<xsf:folderURL value="https://ict2006plymouthac.sharepoint.com/sites/pp-curriculumdesignsites/seedpod/"></xsf:folderURL>
+			<xsf:fileName value="concat(&quot;CD Proposal - &quot;, my:team/my:leadProposer)" valueType="expression"></xsf:fileName>
+		</xsf:davAdapter>
+	</xsf:dataAdapters>
+</xsf:xDocumentClass>
